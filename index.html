@@ -17,6 +17,13 @@
       <!-- Main CSS -->
       <link href="assets/css/main.css" rel="stylesheet">
 
+      <!-- GRID STUFF https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/-->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+
 
     <title>Andrew Tran's Personal Website </title>
   </head>
@@ -96,106 +103,29 @@
     </div>
     <!-- about -->
 
-    <section  id="works" class="works section no-padding">
-      <div class="container-fluid">
-        <div class="row no-gutter">
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="assets/images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay -->
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-9.jpg" class="work-box"> <img src="images/work-9.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-10.jpg" class="work-box"> <img src="images/work-10.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-11.jpg" class="work-box"> <img src="images/work-11.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-          <div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-12.jpg" class="work-box"> <img src="images/work-12.jpg" alt="">
-            <div class="overlay">
-              <div class="overlay-caption">
-                <p><i class="fa fa-search-plus fa-2x"></i></p>
-              </div>
-            </div>
-            <!-- overlay --> 
-            </a> </div>
-        </div>
+    <!-- GRID -->
+      <div class="container">
+          <div class="gallery">
+              <figure class="gallery__item gallery__item--1">
+                  <img src="assets/images/work-1.jpg" alt="Gallery image 1" class="gallery__img">
+              </figure>
+              <figure class="gallery__item gallery__item--2">
+                  <img src="assets/images/work-2.jpg" alt="Gallery image 2" class="gallery__img">
+              </figure>
+              <figure class="gallery__item gallery__item--3">
+                  <img src="assets/images/work-3.jpg" alt="Gallery image 3" class="gallery__img">
+              </figure>
+              <figure class="gallery__item gallery__item--4">
+                  <img src="assets/images/work-1.jpg" alt="Gallery image 4" class="gallery__img">
+              </figure>
+              <figure class="gallery__item gallery__item--5">
+                  <img src="assets/images/work-2.jpg" alt="Gallery image 5" class="gallery__img">
+              </figure>
+              <figure class="gallery__item gallery__item--6">
+                  <img src="assets/images/work-3.jpg" alt="Gallery image 6" class="gallery__img">
+              </figure>
+          </div>
+          <br>
       </div>
     </section>
     <!--  Skills -->
