@@ -14,7 +14,7 @@ Theme Name: Jason Stroff
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 html {font-family: 'Inter', sans-serif;background-color:#FFF}
-body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#373737; font-size:14px; zoom: 60%}
+body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#373737; font-size:14px; zoom: 70%}
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
 a{color: #000}
 iframe {border: 0;outline: none;}
@@ -173,4 +173,8 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 /* extra */
 .midsentence{
 	color:#68c3a3;
+}
+.headshotsize{
+	width: 75%;
+	height: auto
 }
