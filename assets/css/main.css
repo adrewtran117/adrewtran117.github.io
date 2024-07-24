@@ -17,7 +17,7 @@ html {font-family: 'Inter', sans-serif;background-color:#FFF}
 body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
-    background: linear-gradient(to bottom, #FFFFFF, #9CAF88); /* White to sage green gradient */
+    background: linear-gradient(to bottom, #FFFFFF, #68c3a3); /* White to sage green gradient */
     font-weight: 400;
     font-style: normal;
     color: #373737;
@@ -76,8 +76,8 @@ svg,img { max-width: 100%; height: auto; }
 .ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #68c3a3; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
-.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#68c3a3; padding:17px 30px;  border: 2px solid #68c3a3;border-radius: 60px; }
-.ds-button:hover{ background-color:#68c3a3 ; color: #FFF; }
+.ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#000000; padding:17px 30px;  border: 2px solid #000000;border-radius: 60px; }
+.ds-button:hover{ background-color:#000000 ; color: #FFF; }
 .ds-arrow-button i{ display: inline-block; vertical-align: middle; }
 /*-----------------------------------------------------------------
   4. >>> Skills Style
@@ -184,7 +184,10 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 
 /* extra */
 .midsentence{
-	color:#68c3a3;
+	color:#228B22;
+}
+.ptag{
+	font-weight:bold;
 }
 .headshotsize{
 	width: 75%;
